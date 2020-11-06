@@ -20,4 +20,8 @@
         source: cars
     });
 
-    
+    $('.typeahead').bind('typeahead:select', function(ev, suggestion) {
+  console.log('Selection: ' + suggestion);
+});
+
+
