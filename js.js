@@ -20,7 +20,7 @@
         source: cars
     });
 
-    $('.typeahead').bind('typeahead:autocomplete', function(ev, suggestion) {
+    $('.typeahead').bind('typeahead:render', function(ev, suggestion) {
   console.log('Selection: ' + suggestion);
 });
 
